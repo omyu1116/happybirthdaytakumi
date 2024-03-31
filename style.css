@@ -31,3 +31,6 @@ button {
     color: #fff;
     background-color: #333;
   }
+  button{
+    text-align: center;
+  }
