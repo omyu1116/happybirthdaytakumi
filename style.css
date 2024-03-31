@@ -34,3 +34,7 @@ button {
   button{
     text-align: center;
   }
+  button{
+    width: 100px;
+    height: 10px;
+  }
