@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css"> 
-    <title>Happy Birthday!</title>
-</head>
-<body>
-    <h1 class="headline">
-    Happy birthday takumi!!!!
-    </h1>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Happy Birthday!</title>
+    </head>
+    <button onclick="myFunction()">クリックしてください</button>
+    <p id="demo"></p>
+    <body>
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML =
+                    "Happy birthday takumi!!!!";
+            }
+        </script>
+    </body>
 </html>
