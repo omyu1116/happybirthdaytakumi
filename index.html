@@ -5,8 +5,14 @@
         <link rel="stylesheet" href="style.css" />
         <title>Happy Birthday!</title>
     </head>
+    <button onclick="myFunction()">クリックしてください</button>
+    <p id="demo"></p>
     <body>
-        <button onclick="myFunction()">クリックしてください</button>
-        <p id="demo"></p>
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML =
+                    "Happy birthday takumi!!!!";
+            }
+        </script>
     </body>
 </html>
