@@ -6,8 +6,8 @@
     <title>Happy Birthday!</title>
 </head>
 <body>
-    <button onclick="releaseBalloons()">押してみて!!!</button>
-    <h1 id="birthdayMessage" style="display: none; z-index: 1;">Happy birthday takumi!!!!</h1>
+    <button onclick="releaseBalloons()">クリックしてください</button>
+    <h1 id="birthdayMessage" style="display: none;">Happy birthday takumi!!!!</h1>
     <div class="balloon-container">
         <div id="balloonContainer"></div>
     </div>
@@ -27,6 +27,8 @@
                 var string = document.createElement('div');
                 string.className = 'string';
                 balloon.appendChild(string);
+
+                document.getElementById('birthdayMessage').style.display = 'block';
             }
         }
     </script>
