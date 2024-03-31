@@ -42,23 +42,23 @@ button {
     text-align: center;
   }
 
-body {
-    position: relative;
-}
 .balloon-container {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
+
 .balloon {
     width: 100px; /* 画像の幅に合わせて調整 */
     height: 150px; /* 画像の高さに合わせて調整 */
     position: absolute;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     animation: flyUp 4s linear forwards;
 }
+
 .string {
     position: absolute;
     width: 2px;
@@ -68,6 +68,7 @@ body {
     left: 50%;
     transform: translateX(-1px);
 }
+
 @keyframes flyUp {
     from {
         bottom: -150px; /* 画像の高さに合わせて調整 */
